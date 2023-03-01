@@ -8,9 +8,9 @@ Euclidean.
 Program akan menerima masukan n (banyak titik, integer dengan n >= 2) kemudian membangkitkan n titik secara acak dalam koordinat (x, y, z). Program akan memberikan keluaran sepasang titik yang jaraknya terdekat dan nilai jaraknya, banyaknya operasi perhitungan rumus Euclidian, waktu riil dalam detik.
 
 ## Struktur direktori
-|─── `doc` => berisi file laporan<br>
-|─── `src` => berisi *source code* program utama<br>
-|    └─── `lib` => berisi *source code* module program<br>
+|─ `doc` => berisi file laporan<br>
+|─ `src` => berisi *source code* program utama<br>
+|└─ `lib` => berisi *source code* module program<br>
 
 ## Requirement program dan instalasi tertentu
 1. Python (https://www.python.org/downloads/)
