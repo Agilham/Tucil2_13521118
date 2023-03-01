@@ -9,8 +9,8 @@ Euclidean.
 
 ## Struktur direktori
 |─ `doc` => berisi file laporan<br>
-|─ `src` => berisi *source code* program utama<br>
-|└─ `lib` => berisi *source code* module program<br>
+└─ `src` => berisi *source code* program utama<br>
+  └─ `lib` => berisi *source code* module program<br>
 
 ## Requirement program dan instalasi tertentu
 1. Python (https://www.python.org/downloads/)
