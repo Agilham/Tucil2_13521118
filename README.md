@@ -10,10 +10,10 @@ Euclidean.
 ## Struktur direktori
 ```bash
 .
-├── doc     # File laporan
-├── src     # Program utama
-│   └── lib # Module program
-└── README.md
+├── doc         # Laporan
+├── src         # Program utama
+│   └── lib     # Module program
+└── README.md   # Readme
 ```
 
 ## Requirement program dan instalasi tertentu
