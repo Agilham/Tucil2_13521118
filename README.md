@@ -9,9 +9,11 @@ Euclidean.
 
 ## Struktur direktori
 ```bash
-├── `doc` => berisi file laporan<br>
-├── `src` => berisi *source code* program utama<br>
-│   └── `lib` => berisi *source code* module program<br>
+.
+├── doc     # File laporan
+├── src     # Program utama
+│   └── lib # Module program
+└── README.md
 ```
 
 ## Requirement program dan instalasi tertentu
