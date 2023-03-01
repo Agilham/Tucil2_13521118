@@ -7,7 +7,6 @@ class Point:
         self.x = x
         self.y = y
         self.z = z
-from matplotlib import *
 
 # fungsi membangkitkan secara acak titik dalam koordinat (x, y, z)
 def generatePoints(n):

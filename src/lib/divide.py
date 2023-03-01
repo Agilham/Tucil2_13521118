@@ -1,19 +1,20 @@
-# fungsi mencari posisi median dari kumpulan titik
+# fungsi mencari posisi median dari himpunan titik
 def findMidpoint(points):
     return len(points)//2
 
-# fungsi mencari titik yang berada di bagian kiri himpunan
+# fungsi mencari titik yang berada di himpunan bagian kiri
 def findLeft(points, middlePoint):
     return points[:middlePoint]
 
-# fungsi mencari titik yang berada di bagian kanan himpunan
+# fungsi mencari titik yang berada di himpunan bagian kanan
 def findRight(points, middlePoint):
     return points[middlePoint:]
 
-# fungsi mencari posisi tengah strip
+# fungsi mencari posisi tengah bidang datar strip
 def findMidstrip(leftPoints, rightPoints):
     return (leftPoints[-1].x + rightPoints[0].x) / 2
 
+# membagi himpunan titik P menjadi dua, yaitu P1 (bagian kiri) dan P2 (bagian kanan)
 def divide(points):
         middlePoint = findMidpoint(points)
         leftPoints = findLeft(points, middlePoint)

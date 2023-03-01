@@ -2,13 +2,13 @@ from math import *
 
 countSolve = 0
 
-# fungsi mencari jarak antara dua bauh titik pada bidang 3D
+# fungsi mencari jarak antara dua buah titik pada bidang 3D dengan Euclidean Distance
 def findDistance(p1, p2):
     global countSolve
     countSolve += 1
     return sqrt((p1.x-p2.x)**2 + (p1.y-p2.y)**2 + (p1.z-p2.z)**2)
 
-# fungsi mencari jarak terdekat di antara n buah titik, dengan n <= 3
+# fungsi mencari jarak terdekat di antara n buah titik
 def findNonStrip(points):
     closestDistance = inf
     p1, p2 = points[0], points[0]
@@ -34,5 +34,6 @@ def findInStrip(strip, pnon1, pnon2, closesDistance):
                 p2 = strip[j]
     return closestInStrip, p1, p2
 
+# fungsi menghitung banyak operasi Euclidean Distance dilakukan selama program berjalan
 def getCount():
     return countSolve

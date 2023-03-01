@@ -1,9 +1,9 @@
-from lib.point import *
-from lib.solve import *
 from lib.input import *
+from lib.point import *
+from time import *
 from lib.conquer import *
 from lib.bruteforce import *
-from time import *
+from lib.solve import *
 
 n = getValid()
 

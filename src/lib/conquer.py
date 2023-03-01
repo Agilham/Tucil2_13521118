@@ -29,7 +29,3 @@ def conquer(points):
             return closestDistance, p1, p2
         else:
             return closestInStrip, ps1, ps2
-        
-# fungsi mendapatkan banyaknya operasi perhitungan rumus euclidian
-def getCount():
-    return countSolve
